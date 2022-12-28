@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Book Storage</title>
+  </head>
+  <body>
+    <h1>Book Storage</h1>
+    <!-- form with submit button that performs addBook function on submit -->
+    <form>
+      <label for="title">Title:</label><br>
+      <input type="text" id="title"><br>
+      <label for="author">Author:</label><br>
+      <input type="text" id="author"><br>
+      <label for="genre">Genre:</label><br>
+      <input type="text" id="genre"><br> <br>
+      <button type="submit" onclick="addBook()">Add Book</button> 
+    </form>
+    <h2>Stored Books:</h2>
+    <!-- div updatebooks which is filled in the js file  -->
+    <div id="updateBooks"></div>
+    <!-- calling the js file -->
+    <script src="bookCatalogue.js"></script>
+  </body>
+</html>
